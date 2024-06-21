@@ -1,12 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.AdministratorOne.Abstractions", "Services.AdministratorOne.Abstractions\Services.AdministratorOne.Abstractions.csproj", "{03D4151E-66A7-492C-B9C7-868648846079}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.AdministratorOne.Abstractions", "Services.AdministratorOne.Abstractions\Services.AdministratorOne.Abstractions.csproj", "{03D4151E-66A7-492C-B9C7-868648846079}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.AdministratorTwo.Abstractions", "Services.AdministratorTwo.Abstractions\Services.AdministratorTwo.Abstractions.csproj", "{37FBA537-7ECC-4632-8BED-0BADC3870F1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.AdministratorTwo.Abstractions", "Services.AdministratorTwo.Abstractions\Services.AdministratorTwo.Abstractions.csproj", "{37FBA537-7ECC-4632-8BED-0BADC3870F1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Applications", "Services.Applications\Services.Applications.csproj", "{D73A28E7-E55D-4F50-AFD0-FEF07671E8C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Applications", "Services.Applications\Services.Applications.csproj", "{D73A28E7-E55D-4F50-AFD0-FEF07671E8C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Common", "Services.Common\Services.Common.csproj", "{1238C4B1-3EB7-4C6F-B822-9DB4BBE388E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Common", "Services.Common\Services.Common.csproj", "{1238C4B1-3EB7-4C6F-B822-9DB4BBE388E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Applications.UnitTests", "Services.Applications.UnitTests\Services.Applications.UnitTests.csproj", "{3F200957-EC67-488C-9906-BEDC7552C061}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +35,15 @@ Global
 		{1238C4B1-3EB7-4C6F-B822-9DB4BBE388E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1238C4B1-3EB7-4C6F-B822-9DB4BBE388E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1238C4B1-3EB7-4C6F-B822-9DB4BBE388E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F200957-EC67-488C-9906-BEDC7552C061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F200957-EC67-488C-9906-BEDC7552C061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F200957-EC67-488C-9906-BEDC7552C061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F200957-EC67-488C-9906-BEDC7552C061}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8ACB965D-EC11-4746-A02F-256A867CE2A1}
 	EndGlobalSection
 EndGlobal
