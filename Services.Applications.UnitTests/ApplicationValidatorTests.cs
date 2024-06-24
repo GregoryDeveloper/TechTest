@@ -38,7 +38,7 @@ namespace Services.Applications.UnitTests
         {
             // Arrange
             var money = new Money(string.Empty, 1m);
-            var user = new User { DateOfBirth = dateOfBirth };
+            var user = new User { DateOfBirth = dateOfBirth, IsVerified = true };
             var report = new KycReport (Guid.NewGuid(), true );
             var reportResult = Result.Success(report);
 
@@ -68,7 +68,7 @@ namespace Services.Applications.UnitTests
         {
             // Arrange
             var money = new Money(string.Empty, 1m);
-            var user = new User { DateOfBirth = dateOfBirth };
+            var user = new User { DateOfBirth = dateOfBirth, IsVerified = true };
 
             var report = new KycReport(Guid.NewGuid(), true);
             var reportResult = Result.Success(report);
@@ -90,7 +90,7 @@ namespace Services.Applications.UnitTests
         {
             // Arrange
             var dateOfBirth = new DateOnly(2006, 6, 20);
-            var user = new User { DateOfBirth = dateOfBirth };
+            var user = new User { DateOfBirth = dateOfBirth, IsVerified = true };
             var report = new KycReport(Guid.NewGuid(), true);
             var reportResult = Result.Success(report);
 
