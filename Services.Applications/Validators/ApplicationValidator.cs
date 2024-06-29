@@ -3,7 +3,7 @@ using Services.Common.Abstractions.Abstractions;
 using Services.Common.Abstractions.Model;
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("Services.Applications.UnitTests")]
+[assembly: InternalsVisibleTo("Services.Applications.Tests")]
 namespace Services.Applications.Validators
 {
     internal class ApplicationValidator : IApplicationValidator
